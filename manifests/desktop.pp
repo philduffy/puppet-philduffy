@@ -11,10 +11,15 @@ class philduffy::desktop {
   # Brew Cask
   package {
     [
+      'amazon-music',
       'caffeine',
       'firefox',
       'google-chrome',
       'mailbox',
+      'nimbus',
+      'plex-home-theater',
+      'quickhue',
+      'sonos',
       'vlc'
     ]:
     provider => 'brewcask',
